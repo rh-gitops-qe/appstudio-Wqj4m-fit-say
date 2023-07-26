@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-nsee
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/rh-gitops-bot/release-e2e-bundle-tenant/appstudio/dc-metro-map-nsee@sha256:8c40ded29e3d6d09d0e58732990d533d50823661b40b6ad0a35f374e84ac673d
         name: my-nodejs
         ports:
         - containerPort: 3001
